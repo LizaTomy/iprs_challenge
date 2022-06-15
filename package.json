@@ -16,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:local": "env=local react-scripts start",
+    "start:development": "env=development react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

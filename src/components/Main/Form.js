@@ -2,12 +2,8 @@ import React from "react";
 import './Form_style.css'
 
 const Form = React.forwardRef((props, ref) => {
-    
-  
-    return (
+  return (
       <div className="fcontainer">
-        
-  
         <form onSubmit={props.onClick}>
           <label>
             <h4>City:</h4>
@@ -18,6 +14,5 @@ const Form = React.forwardRef((props, ref) => {
       </div>
     );
   });
-  
-  export default Form;
+   export default Form;
   

@@ -1,6 +1,4 @@
 import './Header_style.css';
-
-
 const Header = () => {
   return (
     <>
